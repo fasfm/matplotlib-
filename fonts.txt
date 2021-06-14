@@ -1,0 +1,11 @@
+#to do some fonts in titel:
+
+plt.title('Our first data' , fontdict={'fontname': 'Comic Sans MS' , 'fontsize':20})
+
+
+#to do some fonts on graph:
+
+plt.plot(x,y , label='Smart' , color='red' , linewidth='2', linestyle='--' , marker='.' , markersize='10', markeredgecolor='blue')
+
+#this for label only
+plt.legend()
